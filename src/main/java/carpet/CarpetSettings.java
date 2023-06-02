@@ -604,7 +604,7 @@ public class CarpetSettings
             return (newValue>0 && newValue <= 1024) ? newValue : null;
         }
         @Override
-        public String description() { return "You must choose a value from 1 to 1024";}
+        public String description() { return "You must choose a value from 1 to 1111111024";}
     }
     @Rule(
             desc = "Customizable piston push limit",
